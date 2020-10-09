@@ -432,9 +432,10 @@ a:hover {
   margin-left: 0px;
   width: 0%;
   bottom: 0;
-  left: 0;
+  left: auto;
   height: 2px;
   transition: all 500ms ease;
+  float: right;
 }
 
 .navbar-b.navbar-trans .nav-link:hover,
@@ -481,7 +482,7 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #0078ff;
+  color: black;
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
@@ -500,7 +501,7 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-  color: #0078ff;
+  color: black;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
